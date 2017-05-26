@@ -1,0 +1,92 @@
+.wrap {
+background: blue;
+	width: 100%;
+	margin: auto;
+}
+ 
+/*bagian header*/
+.wrap .header{
+	background: green;
+	/*height: 40%;*/
+	padding:7% 10%;
+    background-image: url(Ulfa0410/images/piala.jpg);
+    background-size: 40%;
+    background-blend-mode:normal;
+    font-family:serif;
+    font-size: 20;
+   
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+
+
+
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: yellow;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align:center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:auto;
+}
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height:100%;
+}
+/*bagian sidebar*/
+
+.wrap .badan .sidebar{
+	background: white;
+	float: left;	
+	width: 20%;
+	height: 100%;
+}
+
+
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	background: lightpink;
+	float: left;
+	height: 100%;
+	width: 80%;	
+}
+ 
+.wrap .footer{
+	width: 98,5%;
+	padding: 10px;
+    text-align: center;
+    background:lightgreen;
+}
